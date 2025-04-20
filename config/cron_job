@@ -1,0 +1,2 @@
+# 每天凌晨2点执行爬虫
+0 2 * * * root /usr/local/bin/python /app/main.py >> /app/logs/cron.log 2>&1
